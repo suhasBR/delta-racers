@@ -1,0 +1,193 @@
+[
+  {
+    "uri": "ipfs://QmVzjTeBTwZkNBU9mDVudUGTFGYzJgHiLBZZ49qrwM8uHM",
+    "type": "driver",
+    "imgSrc": "/images/nft/f1_test_Driver_1.jpg",
+    "attributes": [
+      {
+        "trait": "btc",
+        "value": 20
+      },
+      {
+        "trait": "eth",
+        "value": 10
+      },
+      {
+        "trait": "usdt",
+        "value": 0
+      },
+      {
+        "trait": "bnb",
+        "value": 0
+      },
+      {
+        "trait": "ada",
+        "value": 20
+      },
+      {
+        "trait": "sol",
+        "value": 15
+      },
+      {
+        "trait": "xrp",
+        "value": 0
+      },
+      {
+        "trait": "luna",
+        "value": 0
+      },
+      {
+        "trait": "doge",
+        "value": 0
+      },
+      {
+        "trait": "dot",
+        "value": 35
+      }
+    ]
+  },
+
+  {
+    "uri": "ipfs://QmSpDQeM5pYidPHk72n5nfuSoYFWj1xYAATHRodvq6o18d",
+    "type": "driver",
+    "imgSrc": "/images/nft/f1_test_Driver_2.jpg",
+    "attributes": [
+      {
+        "trait": "btc",
+        "value": 9
+      },
+      {
+        "trait": "eth",
+        "value": 11
+      },
+      {
+        "trait": "usdt",
+        "value": 9
+      },
+      {
+        "trait": "bnb",
+        "value": 36
+      },
+      {
+        "trait": "ada",
+        "value": 20
+      },
+      {
+        "trait": "sol",
+        "value": 15
+      },
+      {
+        "trait": "xrp",
+        "value": 0
+      },
+      {
+        "trait": "luna",
+        "value": 0
+      },
+      {
+        "trait": "doge",
+        "value": 0
+      },
+      {
+        "trait": "dot",
+        "value": 0
+      }
+    ]
+  },
+
+  {
+    "uri": "ipfs://QmRsBdi66HW2tvCwCW4Jb4gcWwn92BTvXPkQscvGEzq8Wv",
+    "type": "driver",
+    "imgSrc": "/images/nft/f1_test_Driver_3.jpg",
+    "attributes": [
+      {
+        "trait": "btc",
+        "value": 0
+      },
+      {
+        "trait": "eth",
+        "value": 0
+      },
+      {
+        "trait": "usdt",
+        "value": 5
+      },
+      {
+        "trait": "bnb",
+        "value": 0
+      },
+      {
+        "trait": "ada",
+        "value": 20
+      },
+      {
+        "trait": "sol",
+        "value": 0
+      },
+      {
+        "trait": "xrp",
+        "value": 0
+      },
+      {
+        "trait": "luna",
+        "value": 25
+      },
+      {
+        "trait": "doge",
+        "value": 0
+      },
+      {
+        "trait": "dot",
+        "value": 45
+      }
+    ]
+  },
+
+  {
+    "uri": "ipfs://QmZf62D74F4y4pxrC58ys5fw766tsN3M4E4G3J5snQLu5C",
+    "type": "driver",
+    "imgSrc": "/images/nft/f1_test_Driver_4.jpg",
+    "attributes": [
+      {
+        "trait": "btc",
+        "value": 0
+      },
+      {
+        "trait": "eth",
+        "value": 0
+      },
+      {
+        "trait": "usdt",
+        "value": 30
+      },
+      {
+        "trait": "bnb",
+        "value": 35
+      },
+      {
+        "trait": "ada",
+        "value": 20
+      },
+      {
+        "trait": "sol",
+        "value": 15
+      },
+      {
+        "trait": "xrp",
+        "value": 0
+      },
+      {
+        "trait": "luna",
+        "value": 0
+      },
+      {
+        "trait": "doge",
+        "value": 0
+      },
+      {
+        "trait": "dot",
+        "value": 0
+      }
+    ]
+  }
+]

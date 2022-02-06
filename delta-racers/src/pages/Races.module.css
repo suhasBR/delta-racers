@@ -1,0 +1,61 @@
+.race-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.race-main-section{
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: row;
+}
+
+.table-holder{
+    width: 50%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.interaction-holder{
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.table{
+    border-collapse: collapse;
+    /* border: 3px solid #ddd; */
+    width: 70%;
+}
+
+.table-holder table,th,td{
+    border: 1px solid black;
+}
+
+.table td{
+    padding: 0.5rem;
+    height: 2rem;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table th{
+    padding: 0.7rem 0;
+    background-color: #04aa6d;
+}
+
+.results-section{
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+

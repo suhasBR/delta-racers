@@ -1,0 +1,37 @@
+.navbar-full{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CE2D1E;
+    padding: 0.25rem 3rem;
+}
+
+
+.logo-container{
+    width: 4rem;
+    height: 4rem;
+}
+
+.logo-img{
+    width: 100%;
+}
+
+.connect-button{
+    max-width: 20rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0 0 black;
+}
+
+.connect-button:hover{
+    box-shadow: 0 0.4rem 0 0 black;
+    transition: all 0.3s ease 0s;
+    transform: translateY(-2px);
+}

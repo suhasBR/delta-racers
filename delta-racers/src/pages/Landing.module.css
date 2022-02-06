@@ -1,0 +1,59 @@
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+}
+
+.car-holder{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 60vh; */
+}
+
+.car{
+    margin-top: 3rem;
+    max-width: 80%;
+}
+
+.connect-button-main-holder{
+    padding: 3rem 2rem;
+}
+
+.connect-button-main{
+    max-width: 30rem;
+    padding: 1rem 6rem;
+    font-size: 1.4rem;
+    background-color: #AD6761;
+    color: black;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0 0 black;
+}
+
+.connect-button-main:hover{
+    box-shadow: 0 0.4rem 0 0 black;
+    transition: all 0.3s ease 0s;
+    transform: translateY(-2px);
+}
+
+.about-container{
+    margin-top: 0rem;
+    padding: 2rem 4rem;
+}
+
+.about{
+    background-color: white;
+    border-radius: 1rem;
+    line-height: 1.5;
+    padding-bottom: 2rem;
+}
+
+.about-title{
+    font-size: 4rem;
+}
+
+.about-text{
+    padding: 0 4rem;
+}

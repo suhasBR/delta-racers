@@ -1,0 +1,72 @@
+.garage-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.garage-main-section{
+    width: 100%;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.garage-title{
+    font-size: 2.5rem;
+    text-align: left;
+    margin-left: 7rem;
+    margin-bottom: 0rem;
+}
+
+.car-holder{
+    padding: 2rem;
+    width: 70%;
+}
+
+.car-image{
+    max-width: 100%;
+}
+
+
+
+.component-selector{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: 1px solid black;
+}
+
+.component-selector-title{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.selector{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.nft-gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    /* grid-row-gap: 1rem; */
+    height: 40vh;
+    overflow-y: scroll;
+}
+
+.nft{
+    width: 10rem;
+    margin: 1rem auto;
+}
+
+.image{
+    max-width: 100%;
+}
