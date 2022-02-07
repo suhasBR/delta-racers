@@ -6,7 +6,7 @@ const privateKey = '<PRIVATE_KEY>';
 
 const signer = new ethers.Wallet(privateKey,provider);
 
-const address = "0xe9F3F9008ec5E3102d5eB4D0a040bc31e7FF113F";
+const address = "0xC69352b81B16c0D7682B23d1dEAe794cb17ad770";
 
 const myAbi = require('./abi.json');
 
@@ -41,6 +41,9 @@ myContract_write.getBalance().then((result) => {
 	// 	console.log(result);
 	// })
 
+	myContract_write.reset().then((result) => {
+		console.log(result);
+	})
 	
 
 

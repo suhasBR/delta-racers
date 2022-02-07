@@ -89,8 +89,13 @@ function Garage() {
       );
       // const res = await axios.get(`https://warm-sands-67318.herokuapp.com/api/v1/user/getNFTByOwner?owner=${addr1}&type=${type}`);
       console.log(res.data.data);
-
-      addNFTs(res.data.data);
+      const uniqueSet = (res.data.data).filter((value, index, self) =>
+      index === self.findIndex((t) => (
+        t.imgSrc === value.imgSrc
+      ))
+    )
+      console.log(uniqueSet)
+      addNFTs(uniqueSet);
     } catch (error) {
       console.log(error);
     }

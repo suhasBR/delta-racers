@@ -15,7 +15,7 @@ export const mintOne = async (uri) => {
 
     let tempContract = new ethers.Contract(contractAddress, ComponentNFTABI, tempSigner);
     
-    console.log(tempContract);
+    // console.log(tempContract);
 
     //exeucte mint function from contract
     try {
@@ -28,6 +28,7 @@ export const mintOne = async (uri) => {
 }
 
 const checkEvents = async () => {
+    console.log('checkEvents called')
     let  tempProvider = new ethers.providers.Web3Provider(window.ethereum);
 
     let tempSigner = tempProvider.getSigner();
@@ -38,7 +39,7 @@ const checkEvents = async () => {
 
     tempContract.on("minted", async (addr, uri) => {
       console.log("minted successfully",addr,uri);
-      alert('minted successfully !');
+    //   alert('minted successfully !');
       const cid = uri.split('//')[1];
       const precursor = 'https://ipfs.io/ipfs/'
     

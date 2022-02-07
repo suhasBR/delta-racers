@@ -7,7 +7,7 @@ import Race from "../abi/Race.json";
 import Footer from "../Footer";
 import { useNavigate } from "react-router-dom";
 
-const RaceContractAddress = "0x5DC933E751576addE7b9C7E528913484eBFD6D41";
+const RaceContractAddress = "0xC69352b81B16c0D7682B23d1dEAe794cb17ad770";
 
 function Races() {
   const [racers, addRacers] = useState([]);
@@ -44,6 +44,8 @@ function Races() {
 
       if (raceStatus[0] == 0) {
         changeRaceStatus("Race Not Begun");
+        changeLockButton(false);
+        changeShowResults(false);
       }
 
       if (raceStatus[0] == 1) {
@@ -73,7 +75,7 @@ function Races() {
     tempContract.on("NewRacer", (nam, addr, position) => {
       console.log("got the event");
       console.log(nam, addr, position);
-      alert('joined the race !');
+      // alert('joined the race !');
       checkRacers();
     });
 
@@ -103,6 +105,7 @@ function Races() {
       changeLockButton(true);
        alert('Build a car by buying some components. Or visit garage to assemble bought components to build a car')
        navigate('/lobby');
+       return;
     }
     else{
       changeLockButton(false);
