@@ -5,7 +5,6 @@
 
 .garage-main-section{
     width: 100%;
-    padding: 3rem 5rem;
     display: flex;
     flex-direction: row;
 
@@ -14,8 +13,42 @@
 .garage-title{
     font-size: 2.5rem;
     text-align: left;
-    margin-left: 7rem;
+    margin-left: 4rem;
     margin-bottom: 0rem;
+}
+
+.car-builder{
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 3rem    ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 5rem; */
+}
+
+.car-component-tag{
+    /* padding: 0.3rem 0.6rem; */
+    /* width: 5rem;
+    height: 2rem; */
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    background-color: rgb(199, 184, 184);
+    color: white;
+}
+
+.car-component-text{
+    color: #000;
+    /* padding: 0 0.5rem */
+}
+
+.build-car{
+    padding: 1rem 2rem;
+    background-color: #ce2d1f;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 .car-holder{
@@ -36,7 +69,7 @@
     border-top: none;
     border-bottom: none;
     border-right: none;
-    border-left: 1px solid black;
+    /* border-left: 1px solid black; */
 }
 
 .component-selector-title{
@@ -57,16 +90,23 @@
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
     /* grid-row-gap: 1rem; */
     height: 40vh;
     overflow-y: scroll;
 }
 
 .nft{
-    width: 10rem;
+    width: 17rem;
     margin: 1rem auto;
+    cursor: pointer;
+}
+
+.nft:active{
+    background-color: #000;
 }
 
 .image{
     max-width: 100%;
 }
+

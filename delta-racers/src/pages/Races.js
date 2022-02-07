@@ -4,8 +4,9 @@ import styles from "./Races.module.css";
 import { useSelector } from "react-redux";
 import { ethers } from "ethers";
 import Race from "../abi/Race.json";
+import Footer from "../Footer";
 
-const RaceContractAddress = "0xe9F3F9008ec5E3102d5eB4D0a040bc31e7FF113F";
+const RaceContractAddress = "0x5DC933E751576addE7b9C7E528913484eBFD6D41";
 
 function Races() {
   const [racers, addRacers] = useState([]);
@@ -66,6 +67,7 @@ function Races() {
     tempContract.on("NewRacer", (nam, addr, position) => {
       console.log("got the event");
       console.log(nam, addr, position);
+      alert('joined the race !');
       checkRacers();
     });
 
@@ -213,6 +215,7 @@ function Races() {
           </Fragment>
         )}
       </section>
+      <Footer/>
     </div>
   );
 }

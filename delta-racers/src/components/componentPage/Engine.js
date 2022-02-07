@@ -52,7 +52,7 @@ function Engine() {
                   uri={element.uri} 
                   onClick = {(e) => mintNFT(e)}
                   className={styles["mint-button"]} >
-                      Buy
+                      Buy 0.01 MATIC
                   </button>
               </div>
             </div>

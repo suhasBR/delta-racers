@@ -6,6 +6,7 @@ import { ethers } from "ethers";
 import { useSelector } from "react-redux";
 import { connectWallet } from "../actions/connect";
 import { useNavigate } from "react-router-dom";
+import Footer from "../Footer";
 
 function Landing() {
   const isConnected = useSelector((state) => state.user.loggedIn);
@@ -44,7 +45,11 @@ function Landing() {
             can buy individual car parts , build their own car , Hire drivers
             and race them in races against each other. The combination of the
             different car components give different affinity towards specific
-            cryptocurrency prices. By racing multiple times racers can discover
+            cryptocurrency prices. 
+            </p>
+
+            <p className={styles["about-text"]}>
+            By racing multiple times racers can discover
             these affinities and increase their chance of winning prices. In all
             the Game plays very similar to ZED run , with the exception being
             that the cars performance directly depends on the Underlying
@@ -52,6 +57,7 @@ function Landing() {
           </p>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 }

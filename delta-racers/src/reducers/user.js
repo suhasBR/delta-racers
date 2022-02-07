@@ -5,7 +5,8 @@ const initialState = {
     address : null,
     balance : 0,
     loading: false,
-    nfts:[]
+    nfts:[],
+    distribution: []
 }
 
 export const userSlice = createSlice({
@@ -29,10 +30,13 @@ export const userSlice = createSlice({
         },
         loadNFTs : (state,action) => {
             state.nfts = action.payload
+        },
+        addDistribution : (state,action) => {
+            state.distribution = action.payload;
         }
     }
 })
 
-export const {walletLogin, updateBalance, setLoading, unsetLoading, loadNFTs} = userSlice.actions;
+export const {walletLogin, updateBalance, setLoading, unsetLoading, loadNFTs, addDistribution} = userSlice.actions;
 
 export default userSlice.reducer;

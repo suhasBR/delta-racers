@@ -38,6 +38,7 @@ const checkEvents = async () => {
 
     tempContract.on("minted", async (addr, uri) => {
       console.log("minted successfully",addr,uri);
+      alert('minted successfully !');
       const cid = uri.split('//')[1];
       const precursor = 'https://ipfs.io/ipfs/'
     
@@ -66,7 +67,7 @@ const checkEvents = async () => {
 
         console.log(JSON.parse(body));
 
-        const res = await axios.post('http://localhost:5000/api/v1/user/mint',body,config);
+        const res = await axios.post('https://warm-sands-67318.herokuapp.com/api/v1/user/mint',body,config);
 
 
 

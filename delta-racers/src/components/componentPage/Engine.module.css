@@ -30,7 +30,7 @@
 
 .gallery-item{
     max-width: 17rem;
-    height: 16rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,12 +57,14 @@
 }
 
 .mint-button {
-    width: 7rem;
-    padding: 0.5rem 1rem;
+    width: 12rem;
+    padding: 1rem 1rem;
     border-radius: 0.5rem;
     border: none;
     cursor: pointer;
     background-color: #AD6761;
     font-size: 1.1rem;
+    color: black;
+    
 }
 

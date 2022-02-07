@@ -6,9 +6,10 @@ function LobbyCarParts() {
   return (
     <div className={styles["lobby-item-full"]}>
       <h2 className={styles["lobby-title"]}>Car Parts</h2>
-      <div className={styles["lobby-items-list-container"]}>
-        <div className={styles["lobby-items-list"]}>
-          <Link to="/components">
+      <Link to="/components">
+        <div className={styles["lobby-items-list-container"]+" "+styles["car-parts"]}>
+          {/* <div className={styles["lobby-items-list"]}>
+          
             <div className={styles["lobby-item"]}>
               <div className={styles["lobby-image-holder"]}>
                 <img
@@ -22,14 +23,15 @@ function LobbyCarParts() {
                 <p className={styles["lobby-text"]}>Demo Car Part</p>
               </div>
             </div>
-          </Link>
-        </div>
+         
+        </div>*/}
         <div className={styles["expand-button-container"]}>
           <p className={styles["expand-text"]}>
             <i class="fas fa-arrow-circle-right"></i>
           </p>
+        </div> 
         </div>
-      </div>
+      </Link>
     </div>
   );
 }

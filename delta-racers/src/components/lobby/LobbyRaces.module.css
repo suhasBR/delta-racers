@@ -3,7 +3,7 @@
     padding: 1rem 1rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 
 .lobby-title{
@@ -65,5 +65,37 @@
 .wheel{
     width: 100%;
     height: 8rem;
+}
+
+.car-parts{
+    width: 100%;
+    height: 20rem;
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.garage{
+    width: 100%;
+    height: 20rem;
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.races{
+    width: 100%;
+    height: 20rem;
+    background-image: url('bg1.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+
 }
 

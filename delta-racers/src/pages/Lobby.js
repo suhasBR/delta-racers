@@ -6,6 +6,7 @@ import LobbyRaces from "../components/lobby/LobbyRaces";
 import LobbyGarage from "../components/lobby/LobbyGarage";
 import LobbyCarParts from '../components/lobby/LobbyCarParts';
 import LobbyDrivers from "../components/lobby/LobbyDrivers";
+import Footer from '../Footer';
 
 function Lobby() {
   return <div className={styles["lobby-page"]}>
@@ -15,7 +16,9 @@ function Lobby() {
         <LobbyGarage/>
         <LobbyCarParts/>
         {/* <LobbyDrivers/> */}
+       
       </section>
+      <Footer/>
   </div>;
 }
 

@@ -10,7 +10,7 @@ import { store } from "../store";
 export const loadEngines = async () => {
 
     try {
-        const res = await axios.get('http://localhost:5000/api/v1/NFTs/getNFTbyType',{
+        const res = await axios.get('https://warm-sands-67318.herokuapp.com/api/v1/NFTs/getNFTbyType',{
             params:{
                 type : 'engine'
             }
@@ -27,7 +27,7 @@ export const loadEngines = async () => {
 export const loadMonocoque = async () => {
 
     try {
-        const res = await axios.get('http://localhost:5000/api/v1/NFTs/getNFTbyType',{
+        const res = await axios.get('https://warm-sands-67318.herokuapp.com/api/v1/NFTs/getNFTbyType',{
             params:{
                 type : 'monocoque'
             }
@@ -43,7 +43,7 @@ export const loadMonocoque = async () => {
 export const loadWheels = async () => {
 
     try {
-        const res = await axios.get('http://localhost:5000/api/v1/NFTs/getNFTbyType',{
+        const res = await axios.get('https://warm-sands-67318.herokuapp.com/api/v1/NFTs/getNFTbyType',{
             params:{
                 type : 'wheel'
             }
@@ -60,7 +60,7 @@ export const loadWheels = async () => {
 export const loadDrivers = async () => {
 
     try {
-        const res = await axios.get('http://localhost:5000/api/v1/NFTs/getNFTbyType',{
+        const res = await axios.get('https://warm-sands-67318.herokuapp.com/api/v1/NFTs/getNFTbyType',{
             params:{
                 type : 'driver'
             }

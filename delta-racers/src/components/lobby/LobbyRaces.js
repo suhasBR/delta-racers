@@ -6,9 +6,10 @@ function LobbyRaces() {
   return (
     <div className={styles["lobby-item-full"]}>
       <h2 className={styles["lobby-title"]}>Races</h2>
-      <div className={styles["lobby-items-list-container"]}>
-        <div className={styles["lobby-items-list"]}>
-          <Link to="/races" >
+      <Link to="/races" >
+      <div className={styles["lobby-items-list-container"] + " " + styles["races"]}>
+        {/* <div className={styles["lobby-items-list"]}>
+         
           <div className={styles["lobby-item"]}>
             <div className={styles["lobby-image-holder"]}>
               <img
@@ -21,9 +22,9 @@ function LobbyRaces() {
               <p className={styles["lobby-text"]}>Demo Race</p>
             </div>
           </div>
-          </Link>
+        
 
-        </div>
+        </div> */}
         <div className={styles["expand-button-container"]}>
        
             <p className={styles["expand-text"]}>
@@ -31,8 +32,9 @@ function LobbyRaces() {
             </p>
        
         </div>
-        {/* <img className={styles["wheel"]} src="/images/nft/f1_test_wheel_3.png" alt="wheel" /> */}
+        
       </div>
+      </Link>
     </div>
   );
 }

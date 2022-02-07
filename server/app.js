@@ -6,7 +6,7 @@ const connectDB = require('./db/connect');
 const NFT = require("./routes/NFT");
 const user = require("./routes/user");
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 
 app.use(cors());
 

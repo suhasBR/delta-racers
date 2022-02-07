@@ -4,6 +4,7 @@ import Engine from "../components/componentPage/Engine";
 import Monocoque from "../components/componentPage/Monocoque";
 import Wheels from "../components/componentPage/Wheels";
 import Navbar from "../components/Navbar";
+import Footer from "../Footer";
 import styles from "./Components.module.css";
 
 function Components() {
@@ -14,6 +15,7 @@ function Components() {
       <Wheels/>
       <Monocoque/>
       <Drivers/>
+      <Footer/>
     </div>
   );
 }
