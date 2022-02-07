@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 import { ethers } from "ethers";
 import Race from "../abi/Race.json";
 import Footer from "../Footer";
+import { useNavigate } from "react-router-dom";
 
 const RaceContractAddress = "0x5DC933E751576addE7b9C7E528913484eBFD6D41";
 
@@ -19,6 +20,11 @@ function Races() {
   }, []);
 
   const addr = useSelector((state) => state.user.address);
+  const arr = useSelector((state) => state.user.distribution);
+
+  let navigate = useNavigate();
+  
+  
 
   const checkRacers = async () => {
     let tempProvider = new ethers.providers.Web3Provider(window.ethereum);
@@ -92,6 +98,16 @@ function Races() {
   };
 
   const stake = async (addr) => {
+
+    if(arr.length === 0){
+      changeLockButton(true);
+       alert('Build a car by buying some components. Or visit garage to assemble bought components to build a car')
+       navigate('/lobby');
+    }
+    else{
+      changeLockButton(false);
+    }
+    
     let tempProvider = new ethers.providers.Web3Provider(window.ethereum);
     let tempSigner = tempProvider.getSigner();
     let tempContract = new ethers.Contract(
@@ -100,13 +116,13 @@ function Races() {
       tempSigner
     );
 
-    let temp = Array.from({length: 10}, () => Math.floor(Math.random() * 300));
+    // let temp = Array.from({length: 10}, () => Math.floor(Math.random() * 300));
 
     // console.log(tempContract.functions);
     try {
       await tempContract.functions.addRacers(
         "dummy1",
-        temp,
+        arr,
         { value: "1000000000000000000" }
       );
 

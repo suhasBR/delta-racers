@@ -115,7 +115,7 @@ function Garage() {
 
     dispatch(addDistribution(finalArr));
 
-    alert('Car Successfully build, please proceed to Race page')
+    alert('Car Successfully built, please proceed to Race page')
   }
 
   const collectNFTs = async () => {

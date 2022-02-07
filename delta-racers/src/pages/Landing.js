@@ -49,10 +49,9 @@ function Landing() {
             </p>
 
             <p className={styles["about-text"]}>
-            By racing multiple times racers can discover
-            these affinities and increase their chance of winning prices. In all
+            In all
             the Game plays very similar to ZED run , with the exception being
-            that the cars performance directly depends on the Underlying
+            that the cars performance directly depends on the underlying
             cryptocurrency Asset.
           </p>
         </div>
