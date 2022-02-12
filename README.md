@@ -1,8 +1,11 @@
 # Delta Racers
 
+ETH Global Hackathon RoadtoWeb3 - https://showcase.ethglobal.com/roadtoweb3/delta-racers
+
 # PolygonScan Link for Smart contract
 https://mumbai.polygonscan.com/address/0xC69352b81B16c0D7682B23d1dEAe794cb17ad770
 
+# About
 Delta racers is a new innovative game where you can participate in races which are controlled by cryptocurrency/asset prices. Racers can buy individual car parts , build their own car , Hire drivers and race them in races against each other. The combination of the different car components give different affinity towards specific cryptocurrency prices. In all the Game plays very similar to ZED run , with the exception being that the cars performance directly depends on the underlying cryptocurrency Asset. 
 
 # How it's made
