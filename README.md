@@ -1,6 +1,5 @@
 # Delta Racers
 
-ETH Global Hackathon RoadtoWeb3 - https://showcase.ethglobal.com/roadtoweb3/delta-racers
 
 # PolygonScan Link for Smart contract
 https://mumbai.polygonscan.com/address/0xC69352b81B16c0D7682B23d1dEAe794cb17ad770
